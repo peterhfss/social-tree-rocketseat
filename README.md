@@ -11,7 +11,7 @@ Projeto baseado no desafio da Rocketseat.
 | :fire: Desafio     | https://app.rocketseat.com.br/discover/challenges/social-tree
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![Preview](./assets/images/Preview.jpg)
+![Preview](./assets/images/Preview.jpg#vitrinedev)
 
 ## Detalhes do projeto
 
