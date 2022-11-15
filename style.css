@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root{
+    --primary: #212430;
+    --blue: #00D1FF;
+    --pink: #AD00FF;
+    --purple:#5201FD;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--primary);
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul, li{
+    list-style: none;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+
+}
+
+.text{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 6em;
+    background: linear-gradient(135deg, var(--pink),var(--blue), var(--purple));
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-stroke: 2px transparent;
+    color:var(--primary);
+    font-weight: 700;
+    animation: gradient 5s ease infinite;
+    text-align: center;
+    
+}
+
+.text:hover{
+    animation: slidein 5s ease infinite;
+}
+
+.menu-icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.list-socials-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-social-links{
+    padding: 15px;
+}
+
+.link-social{
+    text-decoration: none;
+}
+
+.link-social img{
+   width: 100%;
+   padding: 20px;
+}
+
+.link-social img:hover{
+    filter: drop-shadow(1px 1px 4px var(--purple)) brightness(1.5);
+    
+}
+
+
+@media (max-width: 480px) {
+
+    .text{
+        font-size: 1em;
+    }
+
+    .item-social-links{
+        padding: 3px;
+    }
+
+    .link-social img{
+        width: 25px;
+        padding: 4px;
+    }
+    
+}
+
+
+@media (max-width: 768px){
+
+
+    .text{
+        font-size: 2em;
+    }
+
+    .item-social-links{
+        padding: 2px;
+    }
+
+    .link-social img{
+        padding: 2px;
+        width: 45%;
+    }
+}
+
+
+@keyframes gradient{
+    0%, 100%{
+        background-position: 0% 50%;
+        
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+}
+
+
