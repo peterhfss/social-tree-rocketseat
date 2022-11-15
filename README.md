@@ -7,7 +7,7 @@ Projeto baseado no desafio da Rocketseat.
 | -------------  | --- |
 | :sparkles: Nome        | **Social Tree**
 | :label: Tecnologias |  html e css
-| :rocket: URL         | 
+| :rocket: URL         | https://peterhfss.github.io/social-tree-rocketseat/
 | :fire: Desafio     | https://app.rocketseat.com.br/discover/challenges/social-tree
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
